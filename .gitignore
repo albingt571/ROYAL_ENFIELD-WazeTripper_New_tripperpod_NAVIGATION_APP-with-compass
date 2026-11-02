@@ -1,0 +1,20 @@
+# Ignore temporary setup executables and logs
+Docker Desktop*
+*.exe
+*.yaml
+*.log
+install_prereqs.ps1
+launch_elevation.ps1
+run_setup.bat
+test_uac.ps1
+PROGRESS.md
+FINAL_REPORT.md
+
+# Ignore OS files
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
+
+# Ignore build artifacts except final APK
+wazetripper/build/
+wazetripper/apk/

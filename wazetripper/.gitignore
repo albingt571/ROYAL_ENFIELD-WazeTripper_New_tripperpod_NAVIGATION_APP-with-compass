@@ -1,0 +1,28 @@
+# NEVER commit APKs: the built APK is Google's Waze, modified, and must not be redistributed.
+# Fetch Waze with scripts/fetch-apk.sh and build your own with scripts/all.sh.
+*.apk
+*.xapk
+*.apkm
+
+# Signing material, generated locally
+*.keystore
+*.jks
+*.idsig
+
+# Download / decompile / build output
+/apk/
+/build/
+*.dex
+*.class
+
+# Local configuration (may hold Google Play credentials)
+.env
+
+# Tool and OS leftovers
+__pycache__/
+*.pyc
+.DS_Store
+*.swp
+
+# Logs (exported trip logs can contain personal data)
+*.log
